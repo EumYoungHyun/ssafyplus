@@ -59,7 +59,7 @@
   이를 해결하기 위해 조금씩 질문이 추가되는 형식으로 제작
   질문에 답변하다보면 깔끔한 포트폴리오를 PDF로 다운받을 수 있음
 
-<img src="./img/4_career.png" width="900" height="550">
+<img src="./img/4_career.png" width="900" height="520">
 <img src="./img/4_episode.png" width="900" height="550">
 
  <img src="./img/5_career_portfolio.png" width="900" height="550">
@@ -108,7 +108,7 @@
 
 #### 프론트엔드 - React, TypeScript
 
-- 신상엽 (게시판) https://lab.ssafy.com/ssyup4259
+- 신상엽 (프로젝트 구조, 게시판) https://lab.ssafy.com/ssyup4259
 - 음영현 (취업지원, 로그인) https://lab.ssafy.com/Eum_mericano
 - 한승민 (에러 타파) https://lab.ssafy.com/hanseungmin
 
