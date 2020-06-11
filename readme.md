@@ -2,6 +2,8 @@
 
 ## 4반 1조 심화프로젝트 💂 _**두둥등장**_ 💂
 
+<img src="./img/1_login.png" width="1500" height="770">
+
 > 프로젝트 개요
 
 ```
@@ -31,6 +33,7 @@
 - 게시판 만들기를 통해 수 많은 취향을 저격할 수 있는 게시판들을 만들 수 있는 사이트
 
 <img src="./img/2_board.png" width="900" height="550">
+<img src="./img/2_board2.png" width="900" height="550">
 
 > Debug
 
@@ -38,28 +41,29 @@
 - 자신에게 적용된 해결방법은 추천 버튼을 만들어 다른 질문보다 상단에 표시될 수 있도록
 - 질문 단위로 box화 하여 보기 좋게
 
-<img src="./img/3_debug.png" width="830" height="1150">
+<img src="./img/3_debug.png" width="900" height="550">
+<img src="./img/3_debug2.png" width="900" height="550">
 
-> career / portfolio
+> Job Support
 
 - [career] 자소서, 면접준비 페이지  
   자소서를 작성할 때 이 페이지만 보더라도 작성이 완료될 수 있도록
   많은 정보들을 기입할 수 있게 제작
-  (관련 보안 사항을 고민해봐야함)
 
+- [episode]
   에피소드별로, 키워드 별로 정리된 게시글들을 볼 수 있어
   면접준비와 자소서 작성에 도움을 줌
 
-- [portfolio] tallent X 페이지를 클론형식으로 + progress bar를 추가하기
+- [portfolio]
   포트폴리오 제작의 최대 걸림돌 \_ 귀찮음
   이를 해결하기 위해 조금씩 질문이 추가되는 형식으로 제작
-  progress bar를 통해 중간저장까지 얼마나 남았는지 체크해줌
+  질문에 답변하다보면 깔끔한 포트폴리오를 PDF로 다운받을 수 있음
 
- <img src="./img/4_career.png" width="830" height="1100">
+<img src="./img/4_career.png" width="900" height="550">
+<img src="./img/4_episode.png" width="900" height="550">
 
-> portfolio
-
- <img src="./img/5_career_portfolio.png" width="830" height="1100">
+ <img src="./img/5_career_portfolio.png" width="900" height="550">
+ <img src="./img/5_career_portfolio2.png" width="900" height="550">
 
 ---
 
@@ -87,55 +91,6 @@
    각 기수 별로 다른 페이지를 운영 하기에 1기와 2기의 정보 공유 글 없어진다.
    --> 강사님, 컨설턴트님, 코치님의 확인을 통해 신뢰성 있는 글이면 업적 부여등, 신뢰성을 높이는게 최우선
 
-## 추가 디테일
-
-1.  포트폴리오
-    (Talent X)의 틀을 따라가되 미리보기나 프로젝트에 사진을 추가할 수 있으면 좋겠다.
-
-    프로젝트 별로 저장할 수 있도록 컴포넌트화 시켜 준비
-    가능하다면 md 파일로 뽑아낼 수 있도록
-
-    (사진은) 1장추가 / 2장추가 / 4장추가 로 준비
-
-2)  싸피 스택오버플로우
-
-    1. 질문이 너무 겹친다
-       같은 과정을 공부하다보니 질문도 비슷비슷한것들이 올라오고, 이 과정이 매년 반복된다.
-       mattermost에 Q & A 채널에 올리게 되어 있지만 인강 정답판으로만 활용되고있다
-
-    2. 질문과 답변을 한 공간에서!
-       자신의 오류가 해결된 방법이 있으면 버튼을 누를 수 있게 만들고, 해결률이 높은 순으로 상단에 놓는다.
-    3. 레벨업 기능을 넣어서 많이 답변하고 싶도록 (아이디를 화려하게 or 아이디 옆에 훈장)
-
-3.  자소설닷컴 - 기업별로 나누지 말고 / 내 자소서를 항목별로 구분하는 사이트
-    ex) [성실성] 같은 키워드들을 클릭하면 그에 대한 에피소드들이 나열됨
-    https://m.catch.co.kr/
-
-\*\* 참여 유도 방식
-디버그 코멘트등 다양한 활동들을 하다보면 포인트를 얻을 수 있고
-그 포인트로 합격 자소서, 미해결 질문 상단 표시 등 다양한 이점들을 얻을 수 있도록
-
----
-
-## 교수님 / 코치님 의견
-
-( + 커뮤니티 기능도 하면 어떨까?)
-"""
-https://www.teamblind.com/kr/
-https://everytime.kr/
-
-블라인드앱
-사는모습에 대한 익명의 공개  
-취업자들의 욕구를 자극해서 커뮤니티처럼 만들면 어떨까?  
-졸업생들도 회사에서 뭘하고 사는지  
-익명성으로 자신을 어필할 수 있게
-
-가볍게 쓸 수 있는 사이트는 어떨까?  
-아이디어를 좀 더 활발하게 이용할 수 있게 고민  
-"""
-
----
-
 ### 기타 사항
 
 > 사용 스택
@@ -151,20 +106,16 @@ https://everytime.kr/
 
 <img src="./img/erd.png" width="1500" height="900">
 
-> 프로젝트 계획
-
-<img src="./img/project_gant.png" width="1500" height="500">
-
 #### 프론트엔드 - React, TypeScript
 
-- 신상엽
-- 음영현
-- 한승민
+- 신상엽 (게시판) https://lab.ssafy.com/ssyup4259
+- 음영현 (취업지원, 로그인) https://lab.ssafy.com/Eum_mericano
+- 한승민 (에러 타파) https://lab.ssafy.com/hanseungmin
 
 #### 백엔드 - Spring, Mysql
 
-- 정하정
-- 한기연
+- 정하정 (에러타파 API, 쉘 스크립팅, UCC 제작) https://lab.ssafy.com/summ3r119
+- 한기연 (게시판, 로그인, 취업지원 API. UCC제작) https://lab.ssafy.com/kiyeon
 
 ---
 
@@ -180,5 +131,4 @@ master
 기능별 브랜치 작성
 
 ex) login 페이지 백엔드 작업
-
 branch명: backend_login
