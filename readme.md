@@ -2,7 +2,7 @@
 
 ## 4반 1조 심화프로젝트 💂 _**두둥등장**_ 💂
 
-<img src="./img/1_login.png" width="1500" height="770">
+<img src="./img/1_login.png" width="900" height="550">
 
 > 프로젝트 개요
 
